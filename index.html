@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CH Sai Tej | Portfolio</title>
+    <link rel="stylesheet" href="style_advanced.css" />
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #1f2937;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            background-color: #2563eb;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #dbeafe;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2563eb;
+            margin-bottom: 2rem;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: #dbeafe;
+            text-align: center;
+            padding: 2rem;
+            color: #1e40af;
+        }
+
+        footer button {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            margin-bottom: 1rem;
+        }
+
+        footer button:hover {
+            background-color: #1e40af;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CH Sai Tej</h1>
+        <p>Software & Cloud Computing Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#summary">Summary</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>
+            Passionate software enthusiast with a strong foundation in cloud computing, software development,
+            and emerging technologies. A BSc Computer Science graduate with expertise in designing, developing,
+            and optimizing software solutions. Skilled in cloud platforms (AWS, Azure, GCP), programming languages
+            (Python, Java, JavaScript), and DevOps practices.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Loyola Academy</strong><br>
+        BSc Computer Science and Cloud Computing – GPA: 8.5<br>
+        Coursework: Computer Science, Cloud computing, AWS, DevOps, AI</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Data Structures through C</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>AWS</li>
+            <li>Operating Systems</li>
+            <li>Database Management Systems</li>
+            <li>Artificial Intelligence</li>
+            <li>Cloud Computing Architecture</li>
+            <li>Data Analytics</li>
+            <li>Deep Learning</li>
+            <li>DevOps</li>
+            <li>Machine Learning</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3>Mediprice</h3>
+        <ul>
+            <li>Search for medicines by name or brand.</li>
+            <li>Set medication schedules and receive reminders (via email/SMS/notifications).</li>
+            <li>Real-time price comparisons from various online pharmacies.</li>
+            <li>Track missed doses and medication adherence.</li>
+        </ul>
+
+        <h3>Fitness Tracker by AI</h3>
+        <ul>
+            <li><a href="https://github.com/saitejch" target="_blank">View on GitHub</a></li>
+            <li>Real-time adjustment of meal and workout recommendations based on user progress and goals.</li>
+            <li>Easy-to-use interface to log meals, track exercises, and monitor daily activity.</li>
+            <li>Breakdown of caloric intake, macronutrients, and essential vitamins.</li>
+            <li>Monitors progress toward fitness goals.</li>
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Python (Mindlusters)</li>
+            <li>Cybersecurity Workshop (Supraja Technologies)</li>
+            <li>Fundamentals of AI (IBM)</li>
+            <li>Data Analytics (Udemy)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>📍 Siddipet</p>
+        <p>📧 <a href="mailto:chsaitej67@gmail.com">chsaitej67@gmail.com</a></p>
+        <p>📞 +91 9908282632</p>
+        <p>🌐 <a href="https://saitejch.github.io/portfolio/" target="_blank">Portfolio Website</a></p>
+        <p>💼 <a href="https://www.linkedin.com/in/saitejch09/" target="_blank">LinkedIn</a></p>
+        <p>👨‍💻 <a href="https://github.com/saitejch" target="_blank">GitHub</a></p>
+    </section>
+
+    <footer>
+        <button onclick="showMessage()">Click Me</button>
+        <p>&copy; 2025 CH Sai Tej</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Thank you for visiting my portfolio!");
+        }
+    </script>
+</body>
+</html>
